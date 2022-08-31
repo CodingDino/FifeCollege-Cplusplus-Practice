@@ -2,10 +2,24 @@
 //
 
 #include <iostream>
+#include <string>
 
 int main()
 {
-    std::cout << "Hello World!\n";
+
+    // Examples of different variable types
+    int testInt = 100;
+    unsigned testUnsigned = 100u;
+    float testFloat = 0.5f;
+    double testDouble = 0.5;
+    bool testBool = true;
+    char testChar = 'c';
+
+    std::string testString = "Hiya";
+
+    // Example of output to console
+    std::cout << "Hello World!" << "\n"
+        << testString;
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
